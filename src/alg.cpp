@@ -3,7 +3,6 @@
 #include <cmath>
 #include "alg.h"
 
-
 bool checkPrime(uint64_t value) {
 // вставьте код функции
   for (uint64_t i = 2; i < round(sqrt(value)) + 1; i++) {
